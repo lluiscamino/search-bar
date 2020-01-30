@@ -13,6 +13,9 @@ function App() {
       marginTop: '20px'
     }}>
         <SearchBar trie={trie} />
+        <footer id="name">
+        Created by <a href="https://github.com/lluiscamino">Lluís Camino</a>
+        </footer>
     </Container>
   );
 }
